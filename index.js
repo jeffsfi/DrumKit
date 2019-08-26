@@ -1,6 +1,6 @@
 var btns = document.querySelectorAll(".drum");
 for (var i = 0; i < btns.length; ++i) {
-  btns[i].addEventListener("click", function(x) {
+  btns[i].addEventListener("click", function() {
     switch (this.innerText) {
       case "w":
         var tom1 = new Audio("sounds/tom-1.mp3");
